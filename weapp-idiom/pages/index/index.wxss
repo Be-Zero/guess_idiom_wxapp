@@ -1,0 +1,54 @@
+/**index.wxss**/
+
+.wyred {
+  width: 100%;
+  background-color: #c20c0c;
+  height: 35px;
+  display:flex; 
+  justify-content:center; 
+  align-items: center;
+}
+
+.announcementView {
+  width: 47%;
+  height: 22px;
+  background-color: #9b0909;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-btn {
+  background-color: #c20c0c;
+  color: white;
+  height: 45px;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: 600rpx;
+}
+
+.userinfo-sesion {
+  color: black;
+  margin-bottom: 50px;
+}
+
+.zsq1 {
+  background-color: #c20c0c;
+  width: 100%;
+  height: 3px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  display: block;
+  color: black;
+}

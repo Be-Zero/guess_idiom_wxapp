@@ -1,0 +1,24 @@
+<view class="page">
+  <view class="wyred">
+    <view class="end text-center">感谢2019的陪伴</view>
+  </view>
+  <image class="flowers" src="/images/flowers.jpg"></image>
+  <view class="weui-msg__text">
+    <text class="textt">回首过去，我们思绪纷飞，感慨万千</text>
+  </view>
+  <view class="weui-msg__text">
+    <text class="textt">立足今日，我们胸有成竹，信心百倍</text>
+  </view>
+  <view class="weui-msg__text">
+    <text class="textt">展望未来，我们引吭高歌，一路欢笑</text>
+  </view>
+  <view class="weui-msg">
+    <button class="weui-btn" open-type='share'>分享喜悦</button>
+    <button class="weui-btn" type="default" bindtap='bindReback'>返回主页</button>
+  </view>
+  <view class="weui-msg__extra-area">
+    <view class="weui-footer">
+      <view class="weui-footer__text color-black">Copyright © 2019 - 常州大学</view>
+    </view>
+  </view>
+</view>

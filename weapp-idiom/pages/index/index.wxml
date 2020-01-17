@@ -1,0 +1,28 @@
+<view class="page">
+  <view class="wyred">
+    <view class="announcementView text-center">
+      <text class="announcementText color-white">祝学长学姐考研成功</text>
+    </view>
+  </view>
+  <view class="page__td page__bd page__bd_spacing">
+    <view class="text-center">
+      <block wx:if="{{!hasUserInfo}}">
+        <image class="logo" src="/images/logo.png"></image>
+        <button class="weui-btn" open-type="getUserInfo" bindgetuserinfo="bindLogin">微信登录</button>
+      </block>
+      <block wx:else>
+        <view class="zsq1"></view>
+        <view class='userinfo-sesion'>已通过关卡：{{userInfo.sesion}}</view>
+        <image class="userinfo-avatar" src="{{userInfo.avatar}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <button class="weui-btn" type="default" bindtap='bindRank'>排行榜</button>
+        <button class="weui-btn" bindtap='bindBegin'>开始挑战</button>
+      </block>
+    </view>
+  </view>
+  <view class="weui-msg__extra-area">
+    <view class="weui-footer">
+      <view class="weui-footer__text color-black">Copyright © 2019 - 常州大学</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+.rank-items {
+  background-color: #fff;
+  margin: 2px 0;
+}
+
+.rank-items .rank-num {
+  margin-right: 10px;
+  width: 24px;
+  border-radius: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.rank-items .gender {
+  height: 14px;
+  width: 14px;
+}
+
+.bg-top {
+  background-color: #c20c0c;
+}
+
+.bg-bottom {
+  background-color: #d1d1d8;
+}
+
+.weui-cell__ft1{
+  color: #df1b1b;
+}
+
+.weui-cell__ft2{
+  color: #606069;
+}

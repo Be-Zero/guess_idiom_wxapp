@@ -1,0 +1,64 @@
+/**index.wxss**/
+
+page {
+  background-color: #eee;
+}
+
+image {
+  display: flex;
+  width: 600rpx;
+  height: 440rpx;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 1px #333 solid;
+}
+
+.weui-btn {
+  width: 90%;
+  background-color: #c20c0c;
+  color: white;
+}
+
+.weui-msg__title {
+  color: #c20c0c;
+}
+
+.weui-msg__desc {
+  color: #c20c0c;
+}
+
+.end {
+  width: 38%;
+  height: 22px;
+  background-color: #9b0909;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wyred {
+  width: 100%;
+  background-color: #c20c0c;
+  height: 35px;
+  display:flex; 
+  justify-content:center; 
+  align-items: center;
+}
+
+.weui-msg__text {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.weui-msg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,96 @@
+/**index.wxss**/
+
+.zsq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c20c0c;
+  height: 35px;
+  text-align: center;
+}
+
+.sesion {
+  color: white;
+}
+
+.showImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weui-flex__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  width: 480rpx;
+  height: 400rpx;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px #eee solid;
+}
+
+.showPanel {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.showBox {
+  background-color: #d1d1d8;
+  display: inline-table;
+  text-align: center;
+  width: 100rpx;
+  height: 90rpx;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.showWord {
+  margin: 1rpx;
+  font-size: 30px;
+  line-height: 90rpx;
+  font-weight: bold;
+  color: #c20c0c;
+}
+
+.chosePanel {
+  margin-top: 20rpx;
+  text-align: center;
+}
+
+.choseWord {
+  margin: 1rpx;
+  font-size: 20px;
+  line-height: 90rpx;
+  color: #c20c0c;
+  font-weight: bold;
+}
+
+.bg-chose {
+  background-color: #d1d1d8;
+}
+
+.weui-btn{
+  background-color: #c20c0c;
+  color: #fff;
+}
+.sharePanel {
+  margin-top: 30rpx;
+}
